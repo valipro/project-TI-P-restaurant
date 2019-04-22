@@ -158,7 +158,9 @@
                 
                 <%
 	String timeStamp = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss").format(Calendar.getInstance().getTime());
-	%><h2><%=timeStamp%></h2> <% 
+	%>
+	
+	<h2><%=timeStamp%></h2> <% 
 	%>
             </p>
         </div>

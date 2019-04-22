@@ -1,4 +1,7 @@
 <%@page import="java.util.Date"%>
+<%@page import="java.util.Timer,java.util.TimerTask"%>
+<%@page import="java.lang.Exception"%>
+<%@page import="java.text.SimpleDateFormat,java.util.Calendar" %>
 <%@page import="java.text.DecimalFormat"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -126,8 +129,10 @@ table, th, td {
 					%><td><%=numberFormatter.format(Math.exp(i))%></td></tr><%
 			    }
 			%>
+			
 		</tbody>
 	</table>
+	
 </section>
 </body>
 </html>
