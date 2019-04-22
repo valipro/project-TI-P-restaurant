@@ -1,3 +1,9 @@
+<%@page import="java.util.Date"%>
+<%@page import="java.util.Timer,java.util.TimerTask"%>
+<%@page import="java.lang.Exception"%>
+<%@page import="java.text.SimpleDateFormat,java.util.Calendar" %>
+<%@page import="java.text.DecimalFormat"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="ro-RO">
 
@@ -149,6 +155,11 @@
         <div class="row">
             <p>
                 Copyright &copy; 2019 by Hot Dragon
+                
+                <%
+	String timeStamp = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss").format(Calendar.getInstance().getTime());
+	%><h2><%=timeStamp%></h2> <% 
+	%>
             </p>
         </div>
     </footer>
