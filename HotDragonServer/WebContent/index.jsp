@@ -157,7 +157,7 @@
                 Copyright &copy; 2019 by Hot Dragon
                 
                 <%
-	String timeStamp = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss").format(Calendar.getInstance().getTime());
+	String timeStamp = new SimpleDateFormat("dd/MM/yyyy HH:mm").format(Calendar.getInstance().getTime());
 	%>
 	
 	<h2><%=timeStamp%></h2> <% 

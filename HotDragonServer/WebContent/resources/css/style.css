@@ -574,7 +574,6 @@ input[type=checkbox] {
 
 footer {
     background-color: #333;
-    padding: 50px;
     font-size: 80%;
 }
 
@@ -716,4 +715,7 @@ footer p {
 }
 .title0, .title1{
     font-weight:bold;
+}
+.time{
+    padding:0;
 }
